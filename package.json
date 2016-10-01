@@ -1,0 +1,33 @@
+{
+  "name": "gulp-minibars",
+  "version": "1.0.0",
+  "description": "A gulp wrapper for minibars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DanielBrierton/gulp-minibars.git"
+  },
+  "keywords": [
+    "minibars",
+    "template",
+    "gulp"
+  ],
+  "author": "Daniel Brierton <daniel@brierton.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielBrierton/gulp-minibars/issues"
+  },
+  "homepage": "https://github.com/DanielBrierton/gulp-minibars#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "minibars": "0.0.2",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1"
+  }
+}
